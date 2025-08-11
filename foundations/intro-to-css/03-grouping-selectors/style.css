@@ -7,7 +7,7 @@
     background-color: #ffff00;
 }
 
-.a .b {
+.a, .b {
     font-size: 28px;
     font-family: Helvetica, 'Times New Roman', sans-serif;
 }
