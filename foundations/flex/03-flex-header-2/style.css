@@ -50,3 +50,11 @@ ul {
   list-style-type: none;
 }
 
+.left-group, .right-group, .links {
+  display: flex;
+}
+
+
+.logo, li, button, .profile-image {
+  margin: 16px;
+}
