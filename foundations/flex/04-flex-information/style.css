@@ -16,9 +16,10 @@ img {
   display: flex;
   margin-top: 32px;
   gap: 52px;
+
 }
 
-.heading {
+.heading, .container {
   display: flex;
   justify-content: center;
 }
