@@ -15,6 +15,7 @@ img {
 .container {
   display: flex;
   margin-top: 32px;
+  gap: 52px;
 }
 
 .heading {
@@ -26,6 +27,7 @@ img {
 .text {
   text-align: center;
 }
+
 
 
 /* do not edit this footer */
