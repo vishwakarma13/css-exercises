@@ -76,11 +76,8 @@ button.cancel {
   flex-direction: column;
 }
 
-.modal {
-  
-}
-
 .header {
   display: flex;
   justify-content: space-between;
+  font-weight: 900;
 }
