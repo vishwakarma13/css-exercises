@@ -5,6 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -25,7 +27,13 @@ input {
   width: 400px;
 }
 
-.header {
+.header, .footer {
   display: flex;
   justify-content: space-between;
 }
+
+.left-links, .right-links {
+  display: flex;
+  gap: 10px;
+}
+
