@@ -31,6 +31,7 @@ input {
 .header, .footer {
   display: flex;
   justify-content: space-between;
+  padding: 10px;
 }
 
 .left-links, .right-links {
@@ -53,4 +54,8 @@ li {
 .buttons, .input {
   display: flex;
   justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
 }
