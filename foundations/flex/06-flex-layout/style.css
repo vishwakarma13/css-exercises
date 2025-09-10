@@ -8,6 +8,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
 }
 
 img {
@@ -19,6 +20,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 2%;
 }
 
 input {
@@ -48,6 +50,9 @@ li {
 
 .content {
   align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px
 }
 
 .buttons, .input, img {
@@ -61,4 +66,8 @@ a {
 
 .footer {
   background-color: #eee;
+}
+
+.buttons {
+  gap: 10px;
 }
