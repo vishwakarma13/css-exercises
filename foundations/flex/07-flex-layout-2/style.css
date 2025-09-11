@@ -31,6 +31,9 @@ body {
   background: #eee;
   color: darkmagenta;
   flex-grow: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .sidebar {
@@ -52,7 +55,7 @@ body {
 
 .cards {
   display: flex;
-  flex-wrap: wrap;
+  /* padding: ; */
 
 }
 
