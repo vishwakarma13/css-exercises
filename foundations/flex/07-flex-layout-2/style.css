@@ -17,10 +17,13 @@ body {
   font-size: 32px;
   font-weight: 900;
   padding-left: 16px;
+  align-items: center;
+  display: flex;
 }
 
 .mid-section {
   flex-grow: 10;
+  display: flex;
 }
 
 .footer {
@@ -46,7 +49,7 @@ body {
   
 }
 
-.mid-section, .cards {
+.cards {
   display: flex;
 
 }
